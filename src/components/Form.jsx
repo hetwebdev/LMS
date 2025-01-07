@@ -38,7 +38,7 @@ function RoleSelector() {
   return (
     <div>
       <div className={styles.roleSection}>
-        <h2 className={styles.roleHeading}>Who are you?</h2>
+        <h2 className={styles.roleHeading}>Select your role</h2>
         <div className={styles.roleContainer}>
           <p className={styles.roleDescription}>select one of the option:</p>
           <div className={styles.roleOptions}>
