@@ -1,0 +1,163 @@
+/* Form styles */
+.form {
+    margin-block: 36px;
+    margin-inline: auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: start;
+}
+
+.formHeader h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: semibold;
+    color: #000;
+    text-align: center;
+}
+
+.formHeader p {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: medium;
+    color: #666;
+    text-align: center;
+}
+
+.createdAccountText {
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    text-align: right;
+}
+
+.loginLink:hover {
+    text-decoration: underline;
+}
+
+/* RoleComponent Styles */
+
+.roleSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.roleHeading {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.roleContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.roleDescription {
+    font-family: "Inter", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #666;
+}
+
+.roleOptions {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+}
+
+.role {
+    cursor: pointer;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 0.5rem;
+    border: 1px solid #000;
+    background-color: transparent;
+}
+
+.roleStudentSelected {
+    cursor: pointer;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    background-color: green;
+    border: 1px solid rgb(0, 79, 0);
+    color: white;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.roleLibrarianSelected {
+    cursor: pointer;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    background-color: rgb(35, 79, 174);
+    border: 1px solid rgb(16, 34, 75);
+    color: white;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+/* SignupForm Styles */
+
+.signupFormSection {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.formNameSection {
+    display: flex;
+    gap: 18px;
+}
+
+/* InputField Styles */
+
+.inputFieldTitle {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.inputField {
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 14px;
+    color: #525252;
+    border-radius: 8px;
+}
+
+/* Submit Button */
+
+.submitButton {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+@media (max-width:425px){
+    .form{
+        width:90%;
+    }
+
+    .formHeader h2{
+        line-height: 1;
+        margin-bottom:4px;
+    }
+}
